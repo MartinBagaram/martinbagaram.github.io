@@ -50,4 +50,7 @@
         margin: 0;
         padding: 0;
     }
+      svg{
+        width:100%;
+      }
   }
