@@ -1,5 +1,5 @@
 // set up SVG for D3
-var width  = 500,
+var width  = 300,
     height = 250,
     colors = d3.scale.category10();
 
