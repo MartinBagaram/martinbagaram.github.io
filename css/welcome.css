@@ -51,9 +51,10 @@
         padding: 0;
     }
       svg{
-        width:90%;
-        padding-left:20px;
-        float:left;
+        width:100%;
+        padding-left:10px;
+       display:block;
+       margin:auto;
         
       }
   }
