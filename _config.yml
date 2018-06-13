@@ -1,0 +1,10 @@
+# basic option
+title: My Blog
+author: Martin Bagaram
+description: A blog for documenting my knowlegde
+twitter_username: martinbagaram
+github_username: MartinBagaram
+
+# Build settings
+markdown: kramdown
+theme: minima
