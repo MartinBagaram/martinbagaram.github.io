@@ -1,0 +1,187 @@
+I"�(<h2 id="where-am-i-from">Where am I from?</h2>
+
+<p>I was born in the Northern part of Togo, Kara.  However,I finally completed my high school degree in Sokodé in central part of Togo. From there my adventure started.
+I lived and visited couple of West African countries such as Benin, Nigeria and Niger, and then was awarded a merit scholarship by both Togolese and Moroccan governments.</p>
+
+<h2 id="my-education">My Education</h2>
+<p>In my first years of university, I took classes to prepare myself for chemical engineering school. But quickly after a few chemistry labs, I was caught back to my passion for the nature and outdoor activities. I therefore switched to forest engineering school. The beauty of the school stems from its combination of military education and a scientific career. I spent a great amount of time in the school since it was a boarding school style, which helped me highly improve myself. I learned leadership, responsibility, and discipline, qualities that I proudly brandish.</p>
+
+<p>I graduated from the school with a forest engineering degree and years later I deepened my knowledge by getting a specialized engineering/MSc degree in Geo-information (Geomatics) of Natural Resources Management. Upon my graduation I worked for a local company operating in GIS and Remote sensing. I worked on assessing natural risks (floods, earthquakes, fires, avalanches, etc.) of Arab countries. The work lead to an executive summary appearing on UNISDR website. After 8 months of work I went back to Togo where I worked for a local company that specializes in selling ESRI products in Togo. Although the job has the benefit of being up-to-date on the latest technology of ESRI products, it lacked the technical aspect I was looking for, and solely focused on marketing and transfer of competence.</p>
+
+<p>I was awarded a fellowship by the European Union, Erasmus Mundus to pursue a master program in Multi-objectives decision support systems. I enhanced my knowledge on mathematical modelling known as Research Operations at University of Lisbon (Instituto Superior do Agronomia) . And for the second year of my master program I went to University of Tuscia in Italy. I wrote my master thesis there on the use of drones - <a href="https://www.mdpi.com/2072-4292/10/9/1397">Unmanned Aerial Vehicle (UAV)</a>, to assess forest and biodiversity parameters. I obtained my master degree with the maximum points awarded by the Italian system 110/110 e lode , which means with honors.</p>
+
+<p>This master opened doors for PhD possibilities, motivating my application and admission at the University of Washington. In parallel to my PhD dissertation, I am preparing a MSc in Industrial Engieneering in the same institution.</p>
+
+<!-- I co-founded an NGO operating in the environment in my home country, and at University of Washington I sit on an IT committee board as a grad student representative -->
+
+<h2 id="my-awards">My Awards</h2>
+<ul>
+  <li>Togolese Government for High School High Achivement</li>
+  <li>Wallon Region Fellowship for study abroad, 2014 (Louvain-La-Neuve)</li>
+  <li>European Union Erasmus Mundus Fellowship, 2015-2017 (Master studies)</li>
+  <li>University Washington Fellowship, 2017-2018</li>
+</ul>
+
+<h2 id="employment-and-internships">Employment and Internships</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Company, year</th>
+      <th>Title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Weyerhaeuser, 2019</td>
+      <td>Harvest planner: Conducted uncertainty analysis in strategic harvest  plannning</td>
+    </tr>
+    <tr>
+      <td>Spatial Optimization Lab, 2019</td>
+      <td>Research Associate: Analyzed the effect of climate change on forest management</td>
+    </tr>
+    <tr>
+      <td><a href="/markup-syntax-highlighting/">Syntax Highlighting Post</a></td>
+      <td>Post displaying highlighted code.</td>
+    </tr>
+    <tr>
+      <td><a href="/post%20formats/post-gallery/">Post with a Gallery</a></td>
+      <td>A post showing several images wrapped in <code class="highlighter-rouge">&lt;figure&gt;</code> elements.</td>
+    </tr>
+    <tr>
+      <td><a href="/recipes/chocolate-chip-cookies/">Sample Collection Page</a></td>
+      <td>Single page from a collection.</td>
+    </tr>
+    <tr>
+      <td><a href="/categories/">Categories Archive</a></td>
+      <td>Posts grouped by category.</td>
+    </tr>
+    <tr>
+      <td><a href="/tags/">Tags Archive</a></td>
+      <td>Posts grouped by tag.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="conferences-and-presentations">Conferences and Presentations</h2>
+
+<h2 id="which-languages-do-i-speak">Which Languages Do I Speak?</h2>
+
+<p>Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies — styling is purposely minimalistic to be enhanced and customized by you :smile:.</p>
+
+<figure class="third ">
+  
+    
+      <a href="/assets/images/mm-layout-splash.png">
+        <img src="/assets/images/mm-layout-splash.png" alt="splash layout example" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/mm-layout-single-meta.png">
+        <img src="/assets/images/mm-layout-single-meta.png" alt="single layout with comments and related posts" />
+      </a>
+    
+  
+    
+      <a href="/assets/images/mm-layout-archive.png">
+        <img src="/assets/images/mm-layout-archive.png" alt="archive layout example" />
+      </a>
+    
+  
+  
+    <figcaption>Examples of included layouts <code class="highlighter-rouge">splash</code>, <code class="highlighter-rouge">single</code>, and <code class="highlighter-rouge">archive</code>.
+</figcaption>
+  
+</figure>
+
+<p><a href="/docs/quick-start-guide/" class="btn btn--success btn--large">Install the Theme</a></p>
+
+<h2 id="notable-features">Notable Features</h2>
+
+<ul>
+  <li>Bundled as a “theme gem” for easier install/upgrading.</li>
+  <li>Compatible with GitHub Pages.</li>
+  <li>Support for Jekyll’s built-in Sass/SCSS preprocessor.</li>
+  <li>Nine different skins (color variations).</li>
+  <li>Several responsive layout options (single, archive index, search, splash, and paginated home page).</li>
+  <li>Optimized for search engines with support for <a href="https://dev.twitter.com/cards/overview">Twitter Cards</a> and <a href="http://ogp.me/">Open Graph</a> data</li>
+  <li>Optional <a href="https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers">header images</a>, <a href="https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars">custom sidebars</a>, <a href="https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents">table of contents</a>, <a href="https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery">galleries</a>, related posts, <a href="https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta">breadcrumb links</a>, <a href="https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list">navigation lists</a>, and more.</li>
+  <li>Commenting support (powered by <a href="https://disqus.com/">Disqus</a>, <a href="https://developers.facebook.com/docs/plugins/comments">Facebook</a>, <a href="https://www.discourse.org/">Discourse</a>, <a href="https://utteranc.es/">utterances</a>, static-based via <a href="https://staticman.net/">Staticman v1 and v2</a>, and custom).</li>
+  <li><a href="https://www.google.com/analytics/">Google Analytics</a> support.</li>
+  <li>UI localized text in English (default), Brazilian Portuguese (Português brasileiro), Catalan, Chinese, Danish, Dutch, French (Français), German (Deutsch), Greek, Hindi (हिंदी), Hungarian, Indonesian, Italian (Italiano), Japanese, Korean, Malayalam, Nepali (Nepalese), Persian (فارسی), Polish, Punjabi (ਪੰਜਾਬੀ), Romanian, Russian, Slovak, Spanish (Español), Swedish, Thai, Turkish (Türkçe), and Vietnamese.</li>
+</ul>
+
+<h2 id="demo-pages">Demo Pages</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="/layout-header-image-text-readability/">Post with Header Image</a></td>
+      <td>A post with a large header image.</td>
+    </tr>
+    <tr>
+      <td><a href="/markup/markup-html-tags-and-formatting/">HTML Tags and Formatting Post</a></td>
+      <td>A variety of common markup showing how the theme styles them.</td>
+    </tr>
+    <tr>
+      <td><a href="/markup-syntax-highlighting/">Syntax Highlighting Post</a></td>
+      <td>Post displaying highlighted code.</td>
+    </tr>
+    <tr>
+      <td><a href="/post%20formats/post-gallery/">Post with a Gallery</a></td>
+      <td>A post showing several images wrapped in <code class="highlighter-rouge">&lt;figure&gt;</code> elements.</td>
+    </tr>
+    <tr>
+      <td><a href="/recipes/chocolate-chip-cookies/">Sample Collection Page</a></td>
+      <td>Single page from a collection.</td>
+    </tr>
+    <tr>
+      <td><a href="/categories/">Categories Archive</a></td>
+      <td>Posts grouped by category.</td>
+    </tr>
+    <tr>
+      <td><a href="/tags/">Tags Archive</a></td>
+      <td>Posts grouped by tag.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>For even more demo pages check the <a href="/year-archive/">posts archive</a>.</p>
+
+<hr />
+
+<h2 id="credits">Credits</h2>
+
+<h3 id="icons--demo-images">Icons + Demo Images:</h3>
+
+<ul>
+  <li><a href="https://thenounproject.com">The Noun Project</a> – Garrett Knoll, Arthur Shlain, and <a href="https://thenounproject.com/tracytam">tracy tam</a></li>
+  <li><a href="http://fontawesome.io/">Font Awesome</a></li>
+  <li><a href="https://unsplash.com/">Unsplash</a></li>
+</ul>
+
+<h3 id="other">Other:</h3>
+
+<ul>
+  <li><a href="https://jekyllrb.com/">Jekyll</a></li>
+  <li><a href="https://jquery.com/">jQuery</a></li>
+  <li><a href="http://susy.oddbird.net/">Susy</a></li>
+  <li><a href="http://breakpoint-sass.com/">Breakpoint</a></li>
+  <li><a href="http://dimsemenov.com/plugins/magnific-popup/">Magnific Popup</a></li>
+  <li><a href="http://fitvidsjs.com/">FitVids.JS</a></li>
+  <li>Greedy Navigation - <a href="https://codepen.io/lukejacksonn/pen/PwmwWV">lukejacksonn</a></li>
+  <li><a href="https://github.com/kswedberg/jquery-smooth-scroll">jQuery Smooth Scroll</a></li>
+  <li><a href="http://lunrjs.com">Lunr</a></li>
+</ul>
+
+<hr />
+
+<p>Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.</p>
+:ET

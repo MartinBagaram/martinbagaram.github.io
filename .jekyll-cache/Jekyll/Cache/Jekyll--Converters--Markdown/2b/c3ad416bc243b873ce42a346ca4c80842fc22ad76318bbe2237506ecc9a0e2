@@ -1,0 +1,41 @@
+I"ý
+<h2 id="visualization-of-stochastic-harvest-planning">Visualization of Stochastic Harvest Planning</h2>
+
+<h2 id="assessing-biodiversity-indicator-using-uav-remote-sensing">Assessing Biodiversity indicator using UAV remote sensing</h2>
+
+<p>This project explores explored the capability of a UAV, namely the eBee drone, imagery to map forest canopy gaps and derive some forest parameters such as, biodiversity indices, habitat trees, basal area, canopy height, deadwood, etc. using handy techniques in a test area of 240 ha of natural reserve of Lago di Vico in Central Italy. We used correlation and linear regression techniques to explore relationships between gaps patch metrics on one side and forest features on the other. The mapping revealed that forest shaded canopy gaps can be faithfully extracted from UAV RGB color images. Estimation of forest features using canopy gaps as a proxy led to disparate results. Best results were obtained for understorey data with R^2 going up to 0.87 and intermediate results were observed in living trees data with $R^2$ of over 0.74. The approach failed to estimate the deadwood. Additionally, from the three forest types available in the study area, best results were observed in mixed forest while Fagus forest had the poorest ones and Quercus forest displayed intermediate results. UAV true color remote sensing presents a high potential for forest inventory, forest monitoring, and biodiversity assessment.</p>
+
+<p><a href="https://doi.org/10.3390/rs10091397">Read the paper</a></p>
+
+<p>For even more demo pages check the <a href="/year-archive/">posts archive</a>.</p>
+
+<hr />
+
+<h2 id="credits">Credits</h2>
+
+<h3 id="icons--demo-images">Icons + Demo Images:</h3>
+
+<ul>
+  <li><a href="https://thenounproject.com">The Noun Project</a> â€“ Garrett Knoll, Arthur Shlain, and <a href="https://thenounproject.com/tracytam">tracy tam</a></li>
+  <li><a href="http://fontawesome.io/">Font Awesome</a></li>
+  <li><a href="https://unsplash.com/">Unsplash</a></li>
+</ul>
+
+<h3 id="other">Other:</h3>
+
+<ul>
+  <li><a href="https://jekyllrb.com/">Jekyll</a></li>
+  <li><a href="https://jquery.com/">jQuery</a></li>
+  <li><a href="http://susy.oddbird.net/">Susy</a></li>
+  <li><a href="http://breakpoint-sass.com/">Breakpoint</a></li>
+  <li><a href="http://dimsemenov.com/plugins/magnific-popup/">Magnific Popup</a></li>
+  <li><a href="http://fitvidsjs.com/">FitVids.JS</a></li>
+  <li>Greedy Navigation - <a href="https://codepen.io/lukejacksonn/pen/PwmwWV">lukejacksonn</a></li>
+  <li><a href="https://github.com/kswedberg/jquery-smooth-scroll">jQuery Smooth Scroll</a></li>
+  <li><a href="http://lunrjs.com">Lunr</a></li>
+</ul>
+
+<hr />
+
+<p>Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.</p>
+:ET
