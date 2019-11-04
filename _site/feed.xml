@@ -1,4 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-09-08T14:55:36-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Martin B. Bagaram</title><subtitle>Getting to know one of the Martin's in the world.</subtitle><author><name>Martin B. Bagaram</name></author><entry><title type="html">Exclude Post from Search Index</title><link href="http://localhost:4000/jekyll/post-exclude-search/" rel="alternate" type="text/html" title="Exclude Post from Search Index" /><published>2017-11-28T00:00:00-08:00</published><updated>2018-02-19T05:06:00-08:00</updated><id>http://localhost:4000/jekyll/post-exclude-search</id><content type="html" xml:base="http://localhost:4000/jekyll/post-exclude-search/">&lt;p&gt;This post should not appear in the search index because it has the following YAML Front Matter:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2019-11-03T20:09:31-08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Martin B. Bagaram</title><subtitle>Getting to know one of the Martin's in the world.</subtitle><author><name>Martin B. Bagaram</name></author><entry><title type="html">Set up Cplex API for JAVA and for Python</title><link href="http://localhost:4000/optimization/set-up-cplex-api-for-python-java/" rel="alternate" type="text/html" title="Set up Cplex API for JAVA and for Python" /><published>2019-11-02T00:00:00-07:00</published><updated>2019-11-02T00:00:00-07:00</updated><id>http://localhost:4000/optimization/set-up-cplex-api-for-python-java</id><content type="html" xml:base="http://localhost:4000/optimization/set-up-cplex-api-for-python-java/">&lt;p&gt;It can be overwhelming when you start your journey to Optimization using commercial solvers such as CPLEX and Gurobi. The first challenge is the choice of the optimization engine. If you go or you want to go for Cplex, then this post is perfect for you. I you still ensure continue reading&lt;/p&gt;
+
+&lt;p&gt;After you have chosen CPLEX the next question is how to write the mathematical model. There are many third parties that can be used for this end. For instance, AMPL is a mathematical modelling language that can be used for translating your mathematical model written on paper into a model that is understood by computers. We are not going to use any third party. Let stick with CpLEX.
+Cplex offers a programming language known as OPL (Optimization Programming Language). If you know any coding language such as python, java or c/c++ or R then I suggest to not waste your time learning OPL. In fact, even if you don’t know any coding language I suggest you invest your time and energy learning one of general purpose languages such as python or R. After all, knowing one of the languages will serve more purposes than just writing your mathematical models which limits the usefulness of OPL. Let get back to CPLEX and how to use CPLEX API for Python.&lt;/p&gt;</content><author><name>Martin B. Bagaram</name></author><category term="cplex" /><category term="java" /><category term="python" /><summary type="html">It can be overwhelming when you start your journey to Optimization using commercial solvers such as CPLEX and Gurobi. The first challenge is the choice of the optimization engine. If you go or you want to go for Cplex, then this post is perfect for you. I you still ensure continue reading</summary></entry><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/blog/jekyll/update/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-04-13T23:17:29-07:00</published><updated>2018-04-13T23:17:29-07:00</updated><id>http://localhost:4000/blog/jekyll/update/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/blog/jekyll/update/welcome-to-jekyll/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name>Martin B. Bagaram</name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Exclude Post from Search Index</title><link href="http://localhost:4000/jekyll/post-exclude-search/" rel="alternate" type="text/html" title="Exclude Post from Search Index" /><published>2017-11-28T00:00:00-08:00</published><updated>2018-02-19T05:06:00-08:00</updated><id>http://localhost:4000/jekyll/post-exclude-search</id><content type="html" xml:base="http://localhost:4000/jekyll/post-exclude-search/">&lt;p&gt;This post should not appear in the search index because it has the following YAML Front Matter:&lt;/p&gt;
 
 &lt;div class=&quot;language-yaml highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;na&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;false&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -741,80 +756,4 @@
 
 &lt;h3 id=&quot;variable-tag&quot;&gt;Variable Tag&lt;/h3&gt;
 
-&lt;p&gt;This allows you to denote &lt;var&gt;variables&lt;/var&gt;.&lt;/p&gt;</content><author><name>Martin B. Bagaram</name></author><category term="content" /><category term="css" /><category term="formatting" /><category term="html" /><category term="markup" /><summary type="html">A variety of common markup showing how the theme styles them.</summary></entry><entry><title type="html">Markup: Image Alignment</title><link href="http://localhost:4000/markup/markup-image-alignment/" rel="alternate" type="text/html" title="Markup: Image Alignment" /><published>2013-01-10T00:00:00-08:00</published><updated>2013-01-10T00:00:00-08:00</updated><id>http://localhost:4000/markup/markup-image-alignment</id><content type="html" xml:base="http://localhost:4000/markup/markup-image-alignment/">&lt;p&gt;Welcome to image alignment! The best way to demonstrate the ebb and flow of the various image positioning options is to nestle them snuggly among an ocean of words. Grab a paddle and let’s get started.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/image-alignment-580x300.jpg&quot; alt=&quot;image-center&quot; class=&quot;align-center&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The image above happens to be &lt;strong&gt;centered&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/image-alignment-150x150.jpg&quot; alt=&quot;image-left&quot; class=&quot;align-left&quot; /&gt; The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is &lt;strong&gt;left aligned&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;As you can see there should be some space above, below, and to the right of the image. The text should not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak like you words. Let them do their jobs without any hassle from the text. In about one more sentence here, we’ll see that the text moves from the right of the image down below the image in seamless transition. Again, letting the do it’s thing. Mission accomplished!&lt;/p&gt;
-
-&lt;p&gt;And now for a &lt;strong&gt;massively large image&lt;/strong&gt;. It also has &lt;strong&gt;no alignment&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/image-alignment-1200x4002.jpg&quot; alt=&quot;no-alignment&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The image above, though 1200px wide, should not overflow the content area. It should remain contained with no visible disruption to the flow of content.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/images/image-alignment-300x200.jpg&quot; alt=&quot;image-right&quot; class=&quot;align-right&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;And now we’re going to shift things to the &lt;strong&gt;right align&lt;/strong&gt;. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there — Hey guy! Way to rock that right side. I don’t care what the left aligned image says, you look great. Don’t let anyone else tell you differently.&lt;/p&gt;
-
-&lt;p&gt;In just a bit here, you should see the text start to wrap below the right aligned image and settle in nicely. There should still be plenty of room and everything should be sitting pretty. Yeah — Just like that. It never felt so good to be right.&lt;/p&gt;
-
-&lt;p&gt;And just when you thought we were done, we’re going to do them all over again with captions!&lt;/p&gt;
-
-&lt;figure class=&quot;align-center&quot;&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/image-alignment-580x300.jpg&quot; alt=&quot;&quot; /&gt;
-  &lt;figcaption&gt;Look at 580 x 300 getting some love.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The figure above happens to be &lt;strong&gt;centered&lt;/strong&gt;. The caption also has a link in it, just to see if it does anything funky.&lt;/p&gt;
-
-&lt;figure style=&quot;width: 150px&quot; class=&quot;align-left&quot;&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/image-alignment-150x150.jpg&quot; alt=&quot;&quot; /&gt;
-  &lt;figcaption&gt;Itty-bitty caption.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The rest of this paragraph is filler for the sake of seeing the text wrap around the 150×150 image, which is &lt;strong&gt;left aligned&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;As you can see there should be some space above, below, and to the right of the image. The text should not be creeping on the image. Creeping is just not right. Images need breathing room too. Let them speak like you words. Let them do their jobs without any hassle from the text. In about one more sentence here, we’ll see that the text moves from the right of the image down below the image in seamless transition. Again, letting the do it’s thing. Mission accomplished!&lt;/p&gt;
-
-&lt;p&gt;And now for a &lt;strong&gt;massively large image&lt;/strong&gt;. It also has &lt;strong&gt;no alignment&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;figure style=&quot;width: 1200px&quot;&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/image-alignment-1200x4002.jpg&quot; alt=&quot;&quot; /&gt;
-  &lt;figcaption&gt;Massive image comment for your eyeballs.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;The figure element above has an inline style of &lt;code class=&quot;highlighter-rouge&quot;&gt;width: 1200px&lt;/code&gt; set which should break it outside of the normal content flow.&lt;/p&gt;
-
-&lt;figure style=&quot;width: 300px&quot; class=&quot;align-right&quot;&gt;
-  &lt;img src=&quot;http://localhost:4000/assets/images/image-alignment-300x200.jpg&quot; alt=&quot;&quot; /&gt;
-  &lt;figcaption&gt;Feels good to be right all the time.&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;And now we’re going to shift things to the &lt;strong&gt;right align&lt;/strong&gt;. Again, there should be plenty of room above, below, and to the left of the image. Just look at him there — Hey guy! Way to rock that right side. I don’t care what the left aligned image says, you look great. Don’t let anyone else tell you differently.&lt;/p&gt;
-
-&lt;p&gt;In just a bit here, you should see the text start to wrap below the right aligned image and settle in nicely. There should still be plenty of room and everything should be sitting pretty. Yeah — Just like that. It never felt so good to be right.&lt;/p&gt;
-
-&lt;p&gt;And that’s a wrap, yo! You survived the tumultuous waters of alignment. Image alignment achievement unlocked!&lt;/p&gt;</content><author><name>Martin B. Bagaram</name></author><category term="alignment" /><category term="captions" /><category term="content" /><category term="css" /><category term="image" /><category term="markup" /><summary type="html">Welcome to image alignment! The best way to demonstrate the ebb and flow of the various image positioning options is to nestle them snuggly among an ocean of words. Grab a paddle and let’s get started.</summary></entry><entry><title type="html">Markup: Text Alignment</title><link href="http://localhost:4000/markup/markup-text-alignment/" rel="alternate" type="text/html" title="Markup: Text Alignment" /><published>2013-01-09T00:00:00-08:00</published><updated>2013-01-09T00:00:00-08:00</updated><id>http://localhost:4000/markup/markup-text-alignment</id><content type="html" xml:base="http://localhost:4000/markup/markup-text-alignment/">&lt;h3 id=&quot;default&quot;&gt;Default&lt;/h3&gt;
-
-&lt;p&gt;This is a paragraph. It should not have any alignment of any kind. It should just flow like you would normally expect. Nothing fancy. Just straight up text, free flowing, with love. Completely neutral and not picking a side or sitting on the fence. It just is. It just freaking is. It likes where it is. It does not feel compelled to pick a side. Leave him be. It will just be better that way. Trust me.&lt;/p&gt;
-
-&lt;h3 id=&quot;left-align&quot;&gt;Left Align&lt;/h3&gt;
-
-&lt;p style=&quot;text-align: left;&quot;&gt;This is a paragraph. It is left aligned. Because of this, it is a bit more liberal in it’s views. It’s favorite color is green. Left align tends to be more eco-friendly, but it provides no concrete evidence that it really is. Even though it likes share the wealth evenly, it leaves the equal distribution up to justified alignment.&lt;/p&gt;
-
-&lt;h3 id=&quot;center-align&quot;&gt;Center Align&lt;/h3&gt;
-
-&lt;p style=&quot;text-align: center;&quot;&gt;This is a paragraph. It is center aligned. Center is, but nature, a fence sitter. A flip flopper. It has a difficult time making up its mind. It wants to pick a side. Really, it does. It has the best intentions, but it tends to complicate matters more than help. The best you can do is try to win it over and hope for the best. I hear center align does take bribes.&lt;/p&gt;
-
-&lt;h3 id=&quot;right-align&quot;&gt;Right Align&lt;/h3&gt;
-
-&lt;p style=&quot;text-align: right;&quot;&gt;This is a paragraph. It is right aligned. It is a bit more conservative in it’s views. It’s prefers to not be told what to do or how to do it. Right align totally owns a slew of guns and loves to head to the range for some practice. Which is cool and all. I mean, it’s a pretty good shot from at least four or five football fields away. Dead on. So boss.&lt;/p&gt;
-
-&lt;h3 id=&quot;justify-align&quot;&gt;Justify Align&lt;/h3&gt;
-
-&lt;p style=&quot;text-align: justify;&quot;&gt;This is a paragraph. It is justify aligned. It gets really mad when people associate it with Justin Timberlake. Typically, justified is pretty straight laced. It likes everything to be in it’s place and not all cattywampus like the rest of the aligns. I am not saying that makes it better than the rest of the aligns, but it does tend to put off more of an elitist attitude.&lt;/p&gt;</content><author><name>Martin B. Bagaram</name></author><category term="alignment" /><category term="content" /><category term="css" /><category term="markup" /><summary type="html">Default</summary></entry></feed>
+&lt;p&gt;This allows you to denote &lt;var&gt;variables&lt;/var&gt;.&lt;/p&gt;</content><author><name>Martin B. Bagaram</name></author><category term="content" /><category term="css" /><category term="formatting" /><category term="html" /><category term="markup" /><summary type="html">A variety of common markup showing how the theme styles them.</summary></entry></feed>

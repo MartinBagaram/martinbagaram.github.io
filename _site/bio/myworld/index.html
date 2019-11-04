@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link href="../../../css/base.css" rel="stylesheet">
+    <title>Martin B. World</title>
+     <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112253491-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-112253491-1');
+</script>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 90%;
+      }
+      /* Optional: Makes the page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+        <a href="../../blog/" target="_blank">Blog</a>
+        <a href="../../contact/">Contact</a>
+        <a href="../../projects/">Projects</a>
+        <a href="../" class="active">Bio</a>
+        <a href="../../">Home</a>
+    </div> 
+    <div id="map"></div>
+    <script>
+
+    
+    // When the user clicks the marker, an info window opens.
+    var map, infowindow;
+    function initMap() {
+    var mapCenter = {lat: 20.34, lng: -8.09795};
+    map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 3,
+        center: mapCenter
+        });
+    infowindow = new google.maps.InfoWindow({content: ''});
+    setMarkers(map, sites);
+    }
+    var sites = [
+                    ['Seattle', 47.65534, -122.30352, 4, '<h1>Unversity Of Washington</h1>'+
+                        '<div id="bodyContent">'+ 
+                        'I am conductiong my PhD studies in this prestigious university<br>'+
+                        'I am in School of Environmental and Forest Sciences.<br> My lab is' +
+                        '<strong> Spatial Optimization Lab </strong><br>' +
+                        'under the supervision of <a href="http://faculty.washington.edu/toths/" target ="_blank">' +
+                            'Dr. S&aacutendor F. T&oacuteth</a></div>.' ],
+                    ['Belegium', 50.66961, 4.612264, 2, '<h1>Universit&eacute Catholique de Louvain</h1>' +
+                        '<div id="bodyContent">'+ 
+                        'I am had an internship in 2014 in Earth and Life Institute <br>'+ 
+                        'My intrenship was on the use of GPR (ground Penetrating Radar) <br>'+
+                        'to map soil. During the intership I deepened my understanding of<br>' + 
+                        'Geostatistics through analysis of my data.'],
+                    ['Portugal', 38.70763, -9.18231, 1, '<h1>Unversity Of Lisbon</h1>'+
+                        '<div id="bodyContent">'+ 
+                        'My school was Instituto Superior do Agronomia. I graduated with a <br>' +
+                        ' MSc. in Medirranean Forestery and Natural Resources Mgt<br>' +
+                        'Specialization <strong>Multicriteria Decision Support Systems</strong><br>' +
+                        '<a href = "http://www.medfor.eu/" target = "_blank">Here is the link of MEDfOR</a>'],
+                    ['Italy', 42.41322, 12.11221, 3, '<h1>Univerity of Tuscia</h1> I spent my second year of master in this university<br>'],
+                    ['Sale Maroc', 34.0337, -6.77081, 6, '<h1>Sal&eacute</h1> I went to engineering school in this city.<br> It is a coastal city that<br> is satellite to Rabat, the capital'],
+                    ['Beni Mellal', 32.34244, -6.3758, 7, '<h1>B&eacuteni Mellal</h1> My first years of university<br> I took classes of preparation to <br> Engineering school'],
+                    ['Kara', 9.546842, 1.19326, 5, '<h1>Kara</h1> The second important city of the country <br> It is as well my hometown. <br>I went to primary school here'],
+                    ['Sokode', 8.97798, 1.1449, 8, '<h1>Sokod&eacute</h1> Second most populated city of the country<br> I graduated from high School here being the<br> 4th of the entire region'],
+                    ['Lome', 6.1725, 1.23136, 9, '<h1>Lom&eacute</h1> Capital of Togo and main city'],
+                    ['Niger', 17.60779, 8.08167, 10, '<h1>Niger</h1> Visiting'],
+                    ['Benin', 9.307692, 2.31583, 11, '<h1>B&eacutenin</h1> Visiting'],
+                    ['Ghana', 5.60372, -0.18696, 12, '<h1>Ghana</h1> Visiting'],
+                    ['France', 46.22764, 2.21375, 14, '<h1>France</h1> Visiting'],
+                    ['Germany', 51.16569, 10.45153, 15, '<h1>Germany</h1> Visiting'],
+                    ['Nigeria', 9.07648, 7.39857, 13, '<h1>Nigeria</h1>' + 'I visited Lagos and Abuja just to know <br> a bit about that country']
+                ];
+
+    function setMarkers(map, markers) {
+
+        for (var i = 0; i < markers.length; i++) {
+            var sites = markers[i];
+            var siteLatLng = new google.maps.LatLng(sites[1], sites[2]);
+            var marker = new google.maps.Marker({
+                position: siteLatLng,
+                map: map,
+                title: sites[0],
+                zIndex: sites[3],
+                html: sites[4]
+            });
+            marker.addListener("click", function () {
+                //alert(this.html);
+                infowindow.setContent(this.html);
+                infowindow.open(map, this);
+            });
+        }
+    }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsKvLrJ4_0ZMSvC0IfkqW79OtDd-5xozA &callback=initMap">
+    </script>
+  </body>
+</html>
