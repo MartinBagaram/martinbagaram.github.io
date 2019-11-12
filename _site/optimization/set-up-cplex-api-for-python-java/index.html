@@ -302,7 +302,9 @@
 Cplex offers a programming language known as OPL (Optimization Programming Language). If you know any coding language such as python, java or c/c++ or R then I suggest to not waste your time learning OPL. In fact, even if you don’t know any coding language I suggest you invest your time and energy learning one of general purpose languages such as python or R. After all, knowing one of the languages will serve more purposes than just writing your mathematical models which limits the usefulness of OPL. Let get back to CPLEX and how to use CPLEX API for Python.</p>
 <ul>
   <li>Install cplex academic edition or commercial version</li>
-  <li>Intall docplex. If you use Anaconda or Miniconda, you can try this command <code class="highlighter-rouge">python conda install  -c ibmdecisionoptimization docplex</code></li>
+  <li>Intall docplex. If you use Anaconda or Miniconda, you can try this command <code class="highlighter-rouge">conda install -c ibmdecisionoptimization docplex</code></li>
+  <li>The tricky part is to copy your cplex concert technology files into your python directory. To do so you need to navigate to the directory where your cplex is installed. It is usually ` C:\Program Files\IBM\ILOG\CPLEX_Studio128\cplex\python<code class="highlighter-rouge"> From that directory choose your python version. Mine is 3.6. The whole path becomes </code> C:\Program Files\IBM\ILOG\CPLEX_Studio128\cplex\python\3.6\x64_win64<code class="highlighter-rouge"> and then copy </code>cplex<code class="highlighter-rouge"> folder and </code>setup.py<code class="highlighter-rouge"> file to the root of your python. 
+That is it, launch your python and try </code><code class="highlighter-rouge">python from docplex import *</code>`</li>
 </ul>
 
 
