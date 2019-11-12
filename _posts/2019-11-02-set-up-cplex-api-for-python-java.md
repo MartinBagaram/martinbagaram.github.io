@@ -1,11 +1,14 @@
 ---
 title: "Set up Cplex API for JAVA and for Python"
+# excerpt_separator: "This post will teach you how to set up cplex API for python"
 categories:
   - Optimization
 tags:
   - cplex
   - java
   - python
+  - Docplex
+  - Concert technology
 ---
 
 It can be overwhelming when you start your journey to Optimization using commercial solvers such as CPLEX and Gurobi. The first challenge is the choice of the optimization engine. If you go or you want to go for Cplex, then this post is perfect for you. I you still ensure continue reading
