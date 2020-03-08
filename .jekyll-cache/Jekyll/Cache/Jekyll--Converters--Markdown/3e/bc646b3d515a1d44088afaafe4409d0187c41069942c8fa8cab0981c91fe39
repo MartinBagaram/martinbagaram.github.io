@@ -1,4 +1,4 @@
-I"<h2 id="where-am-i-from">Where am I from?</h2>
+I"s <h2 id="where-am-i-from">Where am I from?</h2>
 
 <p>I was born in the Northern part of Togo, Kara where I went to school up to high school.  However, I  completed my high school degree in Sokodé in central part of Togo. From there my adventure started.
 I lived and visited couple of West African countries such as Benin, Nigeria and Niger, and then was awarded a merit scholarship by both Togolese and Moroccan governments.</p>
@@ -108,4 +108,34 @@ I lived and visited couple of West African countries such as Benin, Nigeria and 
   </tbody>
 </table>
 
+<h2 id="course-work">Course work</h2>
+
+<ul>
+  <li>Optimization
+    <ul>
+      <li>Linear and Network Programming</li>
+      <li>Fundamentals of Optimization</li>
+      <li>Application of Optimization in Engineering design</li>
+      <li>Linear Optimization and Engineering Modelling</li>
+      <li>optimization techniques in Natural Resources</li>
+    </ul>
+  </li>
+  <li>Computer Programming
+    <ul>
+      <li>Computer Programming I, II</li>
+      <li>Data Structure and Algorithms</li>
+      <li>Data visualization</li>
+    </ul>
+  </li>
+  <li>Data science
+    <ul>
+      <li>Software Design for Data Science</li>
+      <li>Machine Learning</li>
+      <li>Database Design &amp; Management</li>
+      <li>Computational Methods for Data Analysis</li>
+      <li>Robust Design Process</li>
+      <li>Design Analysis &amp; Experiment</li>
+    </ul>
+  </li>
+</ul>
 :ET

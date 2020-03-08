@@ -75,3 +75,24 @@ This master opened doors for PhD possibilities, motivating my application and ad
 | - Arabic (Moroccan)       | - Git                        |
 |                           | - C/C++                      |
 
+## Course work
+
+* Optimization
+  - Linear and Network Programming
+  - Fundamentals of Optimization
+  - Application of Optimization in Engineering design
+  - Linear Optimization and Engineering Modelling
+  - optimization techniques in Natural Resources
+
+* Computer Programming
+  - Computer Programming I, II
+  - Data Structure and Algorithms
+  - Data visualization
+
+* Data science
+  - Software Design for Data Science
+  - Machine Learning
+  - Database Design & Management
+  - Computational Methods for Data Analysis
+  - Robust Design Process 
+  - Design Analysis & Experiment
