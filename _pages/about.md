@@ -94,5 +94,6 @@ This master opened doors for PhD possibilities, motivating my application and ad
   - Machine Learning
   - Database Design & Management
   - Computational Methods for Data Analysis
+  - Data Driven Optimization
   - Robust Design Process 
   - Design Analysis & Experiment
