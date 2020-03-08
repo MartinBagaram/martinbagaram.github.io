@@ -22,9 +22,11 @@ An application for graduate students to emotionally support each other.
 
 [Grad Corner](https://gradcorner.herokuapp.com/)
 
+
 ## Visualization of Stochastic Harvest Planning
 
 [Visualization tool](https://martinbagaram.github.io/vis/)
+
 
 ## Assessing Biodiversity indicator using UAV remote sensing
 
